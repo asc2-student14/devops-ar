@@ -23,6 +23,7 @@ jobs:
          flake8 app.py
 
   build:
+    needs: lint
     runs-on: ubuntu-latest
     strategy:
       matrix:
