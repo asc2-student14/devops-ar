@@ -1,6 +1,7 @@
 from fastapi import FastAPI, Depends
 import os
 import random
+# Test comment. This has no impact on the unit tests
 
 app = FastAPI(
     title="DevOps Demo App",
